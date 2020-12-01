@@ -1,31 +1,41 @@
 # BearnSDK 
-# 1. Requirements: XCode v12+, cocoapods v1.10+;
+## 1. Requirements: XCode v12+, cocoapods v1.10+;
 
 
-# 2. Add BearnSDK private repo. Command in terminal:
-`pod repo add bearn-private https://github.com/BearnIt/bearn-ios-sdk-podrepo`
+## 2. Add BearnSDK private repo. Command in terminal:
+```bash
+pod repo add bearn-private https://github.com/BearnIt/bearn-ios-sdk-podrepo
+```
+```
 username: bearn-will-provide
 password: bearn-will-provide
+```
 
-
-# 3. Add MyFiziqSDK private repo. Command in terminal:
-`pod repo add myfiziq-private https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-podrepo`
+## 3. Add MyFiziqSDK private repo. Command in terminal:
+```bash
+pod repo add myfiziq-private https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-podrepo
+```
+```
 username: bearn-will-provide
 password: bearn-will-provide
+```
 
+## 4. In project podfile:
 
-# 4. In project podfile:
-
-`
+```bash
 source 'https://github.com/BearnIt/bearn-ios-sdk-podrepo'
 source 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-podrepo'
 source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '13.0'
+
 use_frameworks!
 inhibit_all_warnings!
+
 target 'YOUR_TARGET_NAME' do
   pod "BearnSDK"
 end
+
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
@@ -33,9 +43,10 @@ post_install do |installer|
     end
   end
 end
-`                
-# 5. Add keys to `Info.plist` :
-        
+```
+
+## 5. Add keys to `Info.plist` :
+```      
         <key>CFBundleURLTypes</key>
         <array>
                 <dict>
@@ -95,24 +106,22 @@ end
 
         <key>NSLocationWhenInUseUsageDescription</key>        
         <string>"YOUR_APP_NAME" app needs your location to send you the most appropriate offers based on your current location.</string>
+```
+
+## 6. Select `YourProject->TargetName-> Signing & Capabilities` tab -> +(Add) `HealthKit`
 
 
-# 6. Select `YourProject->TargetName-> Signing & Capabilities` tab -> +(Add) `HealthKit`
+## 7. Setup code for BearnSDK in AppDelegate & SceneDelegate:
 
-
-# 7. Setup code for BearnSDK in AppDelegate & SceneDelegate:
-
-`
+```swift
 // In AppDelegate.swift
 import BearnSDK
-……………………………………………………………………………………..
- func application(_ application: UIApplication, 
-didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? 
-) -> Bool {
+……………………………………………………………………………………
+ func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         Bearn.setupEnvironment(.development) // For Production set .production
         return true
     }
-``
+
 // For old projects with AppDelegate only
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         if Bearn.shared.isBearnURL(url: url) {
@@ -120,25 +129,25 @@ didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: An
         }
         return true
     }
-``
+
 // For new projects with SceneDelegate.swift 
 import BearnSDK
-……………………………………………………………………………………..        
+……………………………………………………………………………………     
     func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
         if let url = URLContexts.first?.url, Bearn.shared.isBearnURL(url: url) {
             Bearn.shared.handle(url: url, options: [:])
         }
     }
-`
+```
 
-# 8. Show Bearn:
+## 8. Show Bearn:
 
-`
+```swift
 import BearnSDK
 class ViewController: UIViewController {
-……………………………………………………………………………………..
+……………………………………………………………………………………
     @IBAction func btnShowTouch(_ sender: Any) {
         Bearn.shared.present(on: self)
     }
 }
-`
+```
