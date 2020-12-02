@@ -1,6 +1,6 @@
 # Uncomment this line to define a global platform for your project
 source 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-podrepo'
-source 'https://github.com/BearnIt/bearn-ios-sdk-podrepo.git'
+source 'https://github.com/BearnIt/bearn_ios_sdk_podrepo.git'
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '12.1'
 
