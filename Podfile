@@ -2,7 +2,7 @@
 source 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-podrepo'
 source 'https://github.com/BearnIt/bearn-ios-sdk-podrepo.git'
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '13.0'
+platform :ios, '12.1'
 
 # Comment this line if you're not using Swift and don't want to use dynamic frameworks
 use_frameworks!
