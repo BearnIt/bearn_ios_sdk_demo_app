@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnTouch(_ sender: Any) {
-        Bearn.shared.present(on: self)
+        Bearn.shared.present()
     }
     
 }
