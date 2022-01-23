@@ -1,0 +1,25 @@
+
+//DASHBOARD
+"DASHBOARD_TITLE"                               = "Dashboard";
+"DASHBOARD_EARNED_TODAY_LABEL"                  = "EARNED TODAY";
+"DASHBOARD_UPDATE_GOAL_BUTTON"                  = "UPDATE GOAL";
+"DASHBOARD_GOAL_ACHIEVED_BUTTON"                = "GOAL ACHIEVED";
+"DASHBOARD_DAILY_GOAL_LABEL"                    = "DAILY GOAL";
+
+"DASHBOARD_CALORIES_LABEL"                      = "CALORIES";
+"DASHBOARD_SPEND_ME_LABEL"                      = "SPEND ME";
+"DASHBOARD_LAST_WEEK_LABEL"                     = "LAST WEEK";
+"DASHBOARD_THIS_WEEK_LABEL"                     = "THIS WEEK";
+
+"DASHBOARD_SPEND_ME"                            = "SPEND ME";
+"DASHBOARD_EARN_ME"                             = "EARN ME";
+
+"DASHBOARD_ACTIVITIES_INFO_TITLE"                  = "Diversify your Goals";
+"DASHBOARD_ACTIVITIES_INFO_MESSAGE"                = "All earnings from completed goals are recorded here on this dashboard view to show your accumulative earnings over time.\n\nTry complete as many activity goals as you can to earn additional bonus earnings!";
+
+
+"DASHBOARD_STREAKS_DAYS_EARNED"                 = "DAYS EARNED";
+"DASHBOARD_STREAKS_DAYS_BEARNED"                = "DAYS BEARNED";
+
+"DASHBOARD_STREAKS_INFO_TITLE"                  = "Fitness is a Journey";
+"DASHBOARD_STREAKS_INFO_MESSAGE"                = "Every activity that you track and complete where you burn 100 calories or more represents a tick mark on your progress wheel. If you are consistent and complete one activity every two days, you will earn a day off without penalty. If you skip days your streak will move in reverse.\n\nThis will help you make activity a habit over time.";

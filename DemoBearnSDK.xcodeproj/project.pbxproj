@@ -15,6 +15,8 @@
 		4F74720D252B891E00968621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F74720B252B891E00968621 /* LaunchScreen.storyboard */; };
 		4F8513102570E16C00CAAC48 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F85130F2570E16C00CAAC48 /* HealthKit.framework */; };
 		4F8530BD255D326E00A13503 /* Pods_DemoBearnSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF17C4CD00054350619E959 /* Pods_DemoBearnSDK.framework */; };
+		4FCDD541279D81580090F3C1 /* BearnColors.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FD8A083279B4EDD0062789C /* BearnColors.json */; };
+		4FCDD542279D815A0090F3C1 /* BearnStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FD8A082279B4EDD0062789C /* BearnStrings.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		4F74720E252B891E00968621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F85130E2570E16B00CAAC48 /* DemoBearnSDK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoBearnSDK.entitlements; sourceTree = "<group>"; };
 		4F85130F2570E16C00CAAC48 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		4FD8A082279B4EDD0062789C /* BearnStrings.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = BearnStrings.strings; sourceTree = "<group>"; };
+		4FD8A083279B4EDD0062789C /* BearnColors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BearnColors.json; sourceTree = "<group>"; };
 		8AF17C4CD00054350619E959 /* Pods_DemoBearnSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoBearnSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC75DAC3684666F7A4CB6CCD /* Pods-DemoBearnSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBearnSDK.release.xcconfig"; path = "Target Support Files/Pods-DemoBearnSDK/Pods-DemoBearnSDK.release.xcconfig"; sourceTree = "<group>"; };
 		CDBFB22EB4B0C29169836F07 /* Pods-DemoBearnSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBearnSDK.debug.xcconfig"; path = "Target Support Files/Pods-DemoBearnSDK/Pods-DemoBearnSDK.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				4F747206252B891C00968621 /* Main.storyboard */,
 				4F747209252B891E00968621 /* Assets.xcassets */,
 				4F74720B252B891E00968621 /* LaunchScreen.storyboard */,
+				4FD8A083279B4EDD0062789C /* BearnColors.json */,
+				4FD8A082279B4EDD0062789C /* BearnStrings.strings */,
 				4F74720E252B891E00968621 /* Info.plist */,
 			);
 			path = DemoBearnSDK;
@@ -158,6 +164,8 @@
 			files = (
 				4F74720D252B891E00968621 /* LaunchScreen.storyboard in Resources */,
 				4F74720A252B891E00968621 /* Assets.xcassets in Resources */,
+				4FCDD542279D815A0090F3C1 /* BearnStrings.strings in Resources */,
+				4FCDD541279D81580090F3C1 /* BearnColors.json in Resources */,
 				4F747208252B891C00968621 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,7 +373,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = DemoBearnSDK/DemoBearnSDK.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 6YTS239MJX;
 				INFOPLIST_FILE = DemoBearnSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -388,7 +396,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = DemoBearnSDK/DemoBearnSDK.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 6YTS239MJX;
 				INFOPLIST_FILE = DemoBearnSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

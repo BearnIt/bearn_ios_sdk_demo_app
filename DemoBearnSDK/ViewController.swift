@@ -9,17 +9,21 @@ import UIKit
 import BearnSDK
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var btn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
        
     }
-
-    @IBAction func btnTouch(_ sender: Any) {
+    
+    @IBAction func btnDefaultTouch(_ sender: Any) {
+        Bearn.shared.loadDefaultTheme()
         Bearn.shared.present()
     }
-    
+
+    @IBAction func btnCustomTouch(_ sender: Any) {
+        Bearn.shared.loadCustomInfoFrom(bundle: .main, localizationStringsFile: "BearnStrings", localizationColorsFile: "BearnColors.json")
+        Bearn.shared.present()
+    }
 }
 

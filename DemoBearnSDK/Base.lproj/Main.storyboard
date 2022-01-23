@@ -17,25 +17,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0N-ZS-Vo9">
-                                <rect key="frame" x="145.5" y="428.5" width="123" height="39"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <state key="normal" title="Show Bearn"/>
-                                <connections>
-                                    <action selector="btnTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u4P-Tq-R0l"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="plT-DD-GV6">
+                                <rect key="frame" x="110" y="380" width="194" height="136"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFm-Uw-6cF">
+                                        <rect key="frame" x="0.0" y="0.0" width="194" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="Show Bearn Default"/>
+                                        <connections>
+                                            <action selector="btnDefaultTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3FR-eU-J62"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSC-ld-1jR">
+                                        <rect key="frame" x="0.0" y="97" width="194" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="Show Bearn Custom"/>
+                                        <connections>
+                                            <action selector="btnCustomTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LBH-pc-fph"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="C0N-ZS-Vo9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CCs-KB-ZVW"/>
-                            <constraint firstItem="C0N-ZS-Vo9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sCm-fH-EXJ"/>
+                            <constraint firstItem="plT-DD-GV6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BeG-fn-0xD"/>
+                            <constraint firstItem="plT-DD-GV6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CN4-G3-KWX"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="btn" destination="C0N-ZS-Vo9" id="5I6-28-Ae3"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
