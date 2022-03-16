@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,23 +17,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="plT-DD-GV6">
-                                <rect key="frame" x="110" y="380" width="194" height="136"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="61" translatesAutoresizingMaskIntoConstraints="NO" id="wHA-FR-ZcF">
+                                <rect key="frame" x="70" y="328.5" width="274" height="239"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFm-Uw-6cF">
-                                        <rect key="frame" x="0.0" y="0.0" width="194" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uc-V6-1Xg">
+                                        <rect key="frame" x="0.0" y="0.0" width="274" height="39"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Show Bearn Default"/>
                                         <connections>
-                                            <action selector="btnDefaultTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3FR-eU-J62"/>
+                                            <action selector="btnDefaultTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UdA-lO-0wq"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSC-ld-1jR">
-                                        <rect key="frame" x="0.0" y="97" width="194" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdi-4o-K1n">
+                                        <rect key="frame" x="0.0" y="100" width="274" height="39"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Show Bearn Custom"/>
                                         <connections>
-                                            <action selector="btnCustomTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LBH-pc-fph"/>
+                                            <action selector="btnCustomTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IHa-9H-5RB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Db-6I-o17">
+                                        <rect key="frame" x="0.0" y="200" width="274" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="Show Bearn Federated Login"/>
+                                        <connections>
+                                            <action selector="btnFederatedLoginTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tC6-fH-ewG"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -42,8 +50,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="plT-DD-GV6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BeG-fn-0xD"/>
-                            <constraint firstItem="plT-DD-GV6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CN4-G3-KWX"/>
+                            <constraint firstItem="wHA-FR-ZcF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rf1-eD-cNq"/>
+                            <constraint firstItem="wHA-FR-ZcF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qCf-rh-2G9"/>
                         </constraints>
                     </view>
                 </viewController>
