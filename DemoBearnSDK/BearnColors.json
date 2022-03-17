@@ -2,6 +2,7 @@
     "globalColors": {
         "bearnAzure": "#c90076",
         "bearnAzureThree": "#18afff",
+        "bearnAzureGreen": "#299BDB",
         "bearnBackground": "#002f39",
         "bearnBackgroundHighlighted" : "#002a33",
         "bearnBrightOrange": "#fd5c10",
@@ -28,54 +29,586 @@
         "bearnTextGray": "#a3abbb",
         "bearnTextGrayDisabled": "#004d4d",
         "bearnTextGrayLeaderboard": "#737a89",
-        "bearnYelow": "#fec40b"
+        "bearnYelow": "#fec40b",
+        "black": "#000000",
+        "grey": "#DAE0EB"
     },
-    "dashboardColors": {
-        "activities": {
-            "activityAmount": "@bearnText",
-            "infoMessage": "@bearnText",
-            "infoTitle": "@bearnGreen",
-            "spendMeBackground": "@bearnGreen",
-            "spendMeLabel": "@bearnBackgroundHighlighted"
+    "dashboard_activities": {
+        "activity_amount": "@bearnText",
+        "info_message": "@bearnText",
+        "info_title": "@bearnGreen",
+        "spendMeBackground": "@bearnGreen",
+        "spendMeLabel": "@bearnBackgroundHighlighted"
+    },
+    "dashboard_progress": {
+        "earned_daily_goal_label": "@bearnDarkGray",
+        "earned_daily_goal_value": "@bearnDarkGray",
+        "earned_today_label": "@bearnDarkGray",
+        "earned_today_value": "@bearnGreen",
+        "goal_button": {
+            "text": "bearnBackgroundHighlighted",
+            "background": "@bearnGreen"
         },
-        "progress": {
-            "caloriesLabel": "@bearnDarkGray",
-            "caloriesValue": "@bearnText",
-            "earnedDailyGoalLabel": "@bearnDarkGray",
-            "earnedDailyGoalValue": "@bearnDarkGray",
-            "earnedTodayLabel": "@bearnDarkGray",
-            "earnedTodayValue": "@bearnGreen",
-            "goalUpdateAchievedButton": "@bearnGreen",
-            "goalUpdateAchievedButtonText": "@bearnBackgroundHighlighted",
-            "graphDayAmountNonZero": "@bearnGreen",
-            "graphDayAmountZero": "@bearnDarkGray",
-            "graphDayName": "@bearnText",
-            "graphDayPopupCalories": "@bearnText",
-            "graphDayPopupDate": "@bearnDarkGray",
-            "graphDaySelectedBackground": "@bearnDarkSkyBlue",
-            "progressSegmentInactive": "@bearnTextGrayDisabled",
-            "progressSegments01_09Active": "@bearnAzure",
-            "progressSegments10_19Active": "@bearnDarkSeafoam",
-            "progressSegments20_29Active": "@bearnLightGold",
-            "progressSegments30_39Active": "@bearnOrangeLight",
-            "progressSegments40_48Active": "@bearnOrangeyRed",
-            "spendMeLabel": "@bearnDarkGray",
-            "spendMeValue": "@bearnGreen",
-            "weekLabelNormal": "@bearnDarkGray",
-            "weekLabelSelected": "@bearnAzure"
+        "graphDayAmountNonZero": "@bearnGreen",
+        "graph_day_amount_zero": "@bearnDarkGray",
+        "graph_day_name": "@bearnText",
+        "graph_day_popup_calories": "@bearnText",
+        "graph_day_money_label": "@bearnText",
+        "graph_day_popup_label": "@bearnDarkGray",
+        "graph_day_selected_background": "@bearnDarkSkyBlue",
+        "progress_segment_inactive": "@bearnTextGrayDisabled",
+        "progressSegments01_09Active": "@bearnAzure",
+        "progressSegments10_19Active": "@bearnDarkSeafoam",
+        "progressSegments20_29Active": "@bearnLightGold",
+        "progressSegments30_39Active": "@bearnOrangeLight",
+        "progressSegments40_48Active": "@bearnOrangeyRed",
+
+        "calories_label": "@bearnDarkGray",
+        "spend_label": "@bearnDarkGray",
+        "calories_value": "@bearnText",
+        "spend_value": "@bearnText",
+        "filter_selection_indicator": "@bearnAzure",
+        "filter_indicator": "@bearnDarkGray",
+        "last_week_filter_btn": {
+            "normal": {
+                "text": "@bearnDarkGray"
+            },
+            "selected": {
+                "text": "@bearnAzureGreen"
+            }
         },
-        "streaks": {
-            "daysBearnedLabel": "@bearnTextGray",
-            "daysBearnedValue": "@bearnGreen",
-            "daysEarnedLabel": "@bearnTextGray",
-            "daysEarnedValue": "@bearnBackgroundHighlighted",
-            "infoButton": "@bearnText",
-            "infoMessage": "@bearnText",
-            "infoTitle": "@bearnGreen",
-            "spendMeBackground": "@bearnGreen",
-            "spendMeLabel": "@bearnBackgroundHighlighted",
-            "value25_50_75_100Active": "@bearnGreen",
-            "value25_50_75_100Inactive": "@bearnTextGrayDisabled"
+        "this_week_filter_btn": {
+            "normal": {
+                "text": "@bearnDarkGray"
+            },
+            "selected": {
+                "text": "@bearnAzureGreen"
+            }
+        }
+    }
+    "dashboard_progress_streaks": {
+        "days_bearned_label": "@bearnTextGray",
+        "days_bearned_value": "@bearnGreen",
+        "days_earned_label": "@bearnTextGray",
+        "days_earned_value": "@bearnBackgroundHighlighted",
+        "info_button": "@bearnText",
+        "info_message": "@bearnText",
+        "info_title": "@bearnGreen",
+        "spend_me_background": {
+            "background": "@bearnGreen",
+        },
+        "spend_me_label": "@bearnBackgroundHighlighted",
+        "value25_50_75_100Active": "@bearnGreen",
+        "value25_50_75_100Inactive": "@bearnTextGrayDisabled"
+    },
+    "dashboard_goals_screen": {
+        "goal_total_amount": "#eaeef5",
+        "goal_total_amount_btn": {
+            "background": "@bearnGreen"
+        },
+        "goal_swimming": "#000000",
+        "goal_golf": "#000000",
+        "goal_cycling": "#000000",
+        "goal_running": "#000000",
+        "goal_strenght": "#000000",
+        "goal_tenis": "#000000",
+        "goal_walking": "#000000",
+        "goal_eliptical": "#000000",
+        "goal_swimming_cal": "@bearnTextGray",
+        "goal_golf_cal": "@bearnTextGray",
+        "goal_cycling_cal": "@bearnTextGray",
+        "goal_running_cal": "@bearnTextGray",
+        "goal_strenght_cal": "@bearnTextGray",
+        "goal_tennis_cal": "@bearnTextGray",
+        "goal_walking_cal": "@bearnTextGray",
+        "goal_elliptical_cal": "@bearnTextGray"
+    },
+    "health_survey_screen": {
+        "health_survey_title": "#000000",
+        "header_info_title": "#000000",
+        "header_etnicity_info_title": "#000000",
+        "health_survey_btn_continue": {
+            "text": "#FFFFFF",
+            "background": "@bearnGreen"
+        }
+    },
+    "yesAndNoAlert": {
+        "yesButton": {
+            "text": "#FFFFFF",
+            "background": "@bearnGreen"
+        },
+        "noButton": {
+            "text": "@bearnAzureGreen",
+            "background": "#FFFFFF"
+        },
+        "titleLabel": "#000000"
+    },
+    "invite_to_challenge_alert": {
+        "title": "#FFFFFF",
+        "message": "@bearnTextGray",
+        "button": {
+            "text": "@bearnAzureGreen",
+            "background": "#FFFFFF"
+        }
+    },
+    "invite_to_challenge": {
+        "title": "#FFFFFF",
+        "invitations_left": "@bearnTextGray",
+        "skip": {
+            "normal": {
+                "text": "#FFFFFF",
+                "background": "@bearnAzure"
+            },
+            "highlighted": {
+                "text": "#FFFFFF",
+                "background": "@bearnAzure:0.8"
+            },
+            "selected": {
+                "text": "#FFFFFF",
+                "background": "@bearnAzure:0.8"
+            },
+            "disabled": {
+                "text": "#FFFFFF",
+                "background": "@bearnTextGray"
+            }
+        },
+        "invite": {
+            "normal": {
+                "text": "#FFFFFF",
+                "background": "@bearnGreen"
+            },
+            "highlighted": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "selected": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "disabled": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnTextGray"
+            }
+        }
+    },
+    "challenge_alert_publish_headsup": {
+        "title": "#000000",
+        "message": "@bearnTextGray",
+        "button": {
+            "text": "#FFFFFF",
+            "background": "@bearnGreen"
+        }
+    },
+    "create_challenge": {
+        "title": "@bearnAzureGreen",
+        "challenge_name": "#000000",
+        "competition_type": "#000000",
+        "activity_type": "#000000",
+        "description": "#000000",
+        "start_date": "#000000",
+        "end_date": "#000000",
+        "challenge_buy_in": "#000000",
+        "marketplace_balance": "#000000",
+        "marketplace_balance_inside_cell": "@black:0.2",
+        "btn_create": {
+            "normal": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnAzureGreen"
+            },
+            "highlighted": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "selected": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "disabled": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnTextGray"
+            }
+        }
+    },
+    "leaderboard": {
+        "title": "@bearnAzureGreen",
+        "rank_number": "@bearnAzureGreen",
+        "rank_label": "@bearnTextGray",
+        "score_number": "#000000",
+        "score_label": "@bearnTextGray",
+        "expire_label": "@black:0.2",
+        "expire_value": "@bearnAzureGreen",
+    },
+    "challenge_joined_activity_alert": {
+        "title": "#000000",
+        "message": "@bearnTextGray",
+        "button": {
+            "text": "#FFFFFF",
+            "background": "@bearnGreen"
+        }
+    },
+    "info_alert": {
+        "title": "#000000",
+        "message": "@bearnTextGray",
+        "button": {
+            "normal": {
+                "text": "#FFFFFF",
+                "background": "@bearnAzureGreen"
+            },
+            "highlighted": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "selected": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "disabled": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnTextGray"
+            }
+        }
+    },
+    "info_sheet_alert": {
+        "title": "#000000",
+        "message": "@bearnTextGray",
+        "primary_button": {
+            "normal": {
+                "text": "#FFFFFF",
+                "background": "@bearnAzureGreen"
+            },
+            "highlighted": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "selected": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "disabled": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnTextGray"
+            }
+        }
+    },
+    "report_challenge_alert": {
+        "title1": "#000000",
+        "title2": "#000000",
+        "message": "@bearnTextGray",
+        "report_btn": {
+            "normal": {
+                "text": "#FFFFFF",
+                "background": "@bearnGreen"
+            },
+            "highlighted": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "selected": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "disabled": {
+                "text": "@bearnAzureGreen",
+                "background": "@grey"
+            }
+        },
+        "report_option_1": {
+            "normal": {
+                "text": "#000000",
+                "background": "#FFFFFF"
+            },
+            "selected": {
+                "text": "#000000",
+                "background": "@grey"
+            }
+        },
+        "report_option_2": {
+            "normal": {
+                "text": "#000000",
+                "background": "#FFFFFF"
+            },
+            "selected": {
+                "text": "#000000",
+                "background": "@grey"
+            }
+        },
+        "report_option_3": {
+            "normal": {
+                "text": "#000000",
+                "background": "#FFFFFF"
+            },
+            "selected": {
+                "text": "#000000",
+                "background": "@grey"
+            }
+        },
+        "report_option_4": {
+            "normal": {
+                "text": "#000000",
+                "background": "#FFFFFF"
+            },
+            "selected": {
+                "text": "#000000",
+                "background": "@grey"
+            }
+        },
+    },
+    "phone_verification": {
+        "title": "#000000",
+        "message": "#000000",
+        "details": "#000000",
+        "send_button": {
+            "text": "#FFFFFF",
+            "background": "@bearnGreen"
+        }
+    },
+    "challenge_details": {
+        "title": "#000000",
+        "expire_time_value": "@bearnAzureGreen",
+        "expire_time_label": "@black:0.2",
+        "active_users_value": "@bearnAzureGreen",
+        "active_users_label": "@black:0.2",
+        "creator_label": "#000000",
+        "creator_value": "#000000",
+        "challenge_name_title": "#000000",
+        "challenge_name_value": "#000000",
+        "challenge_type_title": "#000000",
+        "challenge_type_value": "#000000",
+        "challenge_activity_title": "#000000",
+        "challenge_activity_value": "#000000",
+        "challenge_description_title": "#000000",
+        "challenge_description_value": "#000000",
+        "challenge_starts_title": "#000000",
+        "challenge_starts_value": "#000000",
+        "challenge_pool_title": "#000000",
+        "challenge_buy_in_title": "#000000",
+        "challenge_marketplace_balance_title": "#000000",
+        "challenge_marketplace_balance_inside_title": "#000000",
+        "challenge_marketplace_balance_inside_value": "#000000",
+        "challenge_marketplace_balance_btn": {
+            "text": "@bearnAzureGreen"
+        },
+        "challenge_expandable_item_title": "#000000",
+        "challenge_expandable_item_value": "#000000",
+        "challenge_invite_btn": {
+            "normal": {
+                "text": "#000000",
+                "background": "@bearnAzure"
+            },
+            "highlighted": {
+                "text": "#000000",
+                "background": "@bearnAzure"
+            },
+        },
+        "challenge_view_leaderboard_btn": {
+            "normal": {
+                "text": "#000000",
+                "background": "@bearnYelow"
+            },
+            "highlighted": {
+                "text": "#000000",
+                "background": "@bearnYelow"
+            },
+        },
+        "challenge_join_challenge_btn": {
+            "normal": {
+                "text": "#000000",
+                "background": "@bearnGreen"
+            },
+            "highlighted": {
+                "text": "#000000",
+                "background": "@bearnGreen"
+            },
+        },
+    },
+    "challenge_filter": {
+        "section_header_title": "#000000",
+        "row_title_normal": "@bearnTextGray",
+        "row_title_selected": "@bearnGreen",
+    },
+    "menu": {
+        "item_title": "#000000",
+        "item_image_gradient_color_1": "@bearnOrangeLight:0.95",
+        "item_image_gradient_color_2": "@bearnOrangeLight:0.95",
+        "item_image_gradient_color_3": "@bearnLightGold:0.95",
+    },
+    "support": {
+        "title": "#FFFFFF",
+        "feedback_type": "#000000",
+        "message": "#000000",
+        "send": {
+            "normal": {
+                "text": "#FFFFFF",
+                "background": "@bearnGreen"
+            },
+            "highlighted": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "selected": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "disabled": {
+                "text": "@bearnAzureGreen",
+                "background": "@grey"
+            }
+        }
+    },
+    "my_account": {
+        "title": "#FFFFFF",
+        "text_field_border_color": "#E6E6E6",
+        "text_field_editing_border_color": "#13D022",
+        "text_field_text_color": "#000000",
+        "save": {
+            "normal": {
+                "text": "#FFFFFF",
+                "background": "@bearnGreen"
+            },
+            "highlighted": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "selected": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "disabled": {
+                "text": "@bearnAzureGreen",
+                "background": "@grey"
+            }
+        }
+    },
+    "code_verification": {
+        "code_verification_title": "#000000",
+        "did_you_receive_code": "@black:0.6",
+        "resend_btn": {
+            "normal": {
+                "text": "@bearnAzure"
+            },
+        },
+        "confirm_btn": {
+            "normal": {
+                "text": "#FFFFFF",
+                "background": "@bearnGreen"
+            },
+            "highlighted": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "selected": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "disabled": {
+                "text": "@bearnAzureGreen",
+                "background": "@grey"
+            }
+        }
+    },
+    "dashboard_tooltip": {
+        "background_color": "@bearnAzure:0.9",
+        "button_foreground_color": "#FFFFFF",
+        "foreground_color": "#FFFFFF"
+    },
+    "challenge_list": {
+        "title": "#FFFFFF",
+        "search_textfield": "#000000",
+        "create_challenge_bg": "@bearnAzure",
+        "status_open": "@bearnGreen",
+        "status_inprogress": "@bearnTabbarBlue",
+        "status_complete": "@bearnYelow",
+        "status_draft": "@bearnOrange",
+        "all_challenges_btn": {
+            "normal": {
+                "text": "@black:0.4"
+            },
+            "selected": {
+                "text": "@bearnAzure"
+            }
+        },
+        "my_challenges_btn": {
+            "normal": {
+                "text": "@black:0.4"
+            },
+            "selected": {
+                "text": "@bearnAzure"
+            }
+        }
+    },
+    "goal_setting": {
+        "title": "#FFFFFF",
+        "subtitle": "#000000",
+        "set_goal_btn": {
+            "normal": {
+                "text": "#FFFFFF",
+                "background": "@bearnGreen"
+            },
+            "highlighted": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "selected": {
+                "text": "@bearnAzureGreen",
+                "background": "@bearnGreen:0.8"
+            },
+            "disabled": {
+                "text": "@bearnAzureGreen",
+                "background": "@grey"
+            }
+        }
+    },
+    "health_credit_score": {
+        "title": "#FFFFFF",
+        "your": "@black:0.4",
+        "score": "@black:0.4",
+        "btn_update_survey": {
+            "text": "@bearnGreen"
+        },
+        "btn_how_to": {
+            "text": "#000000"
+        }
+    },
+    "faq": {
+        "title": "#FFFFFF"
+    },
+    "connected_devices": {
+        "title": "#FFFFFF",
+        "footer_label": "@black:0.6",
+        "connected_label": "@bearnGreen",
+        "detach_btn": {
+            "normal": {
+                "text": "#FFFFFF",
+                "background": "@bearnOrangishRed"
+            }
+        },
+        "connect_btn": {
+            "normal": {
+                "text": "#FFFFFF",
+                "background": "@bearnAzure"
+            }
+        },
+        "soon_btn": {
+            "normal": {
+                "text": "#FFFFFF",
+                "background": "@bearnCoolGrey"
+            }
+        }
+    },
+    "settings": {
+        "title": "#FFFFFF",
+        "payment": "#000000",
+        "change_password": "#000000",
+        "policy": "#000000",
+        "my_data": "#000000",
+        "logout": "#000000"
+    },
+    "connect_payment": {
+        "title": "#FFFFFF",
+        "title_header": "#000000",
+        "payment_type_title": "#000000",
+        "payment_setup_btn": {
+            "text": "@bearnAzure"
         }
     }
 }
