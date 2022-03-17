@@ -62,7 +62,6 @@
         "progressSegments20_29Active": "@bearnLightGold",
         "progressSegments30_39Active": "@bearnOrangeLight",
         "progressSegments40_48Active": "@bearnOrangeyRed",
-
         "calories_label": "@bearnDarkGray",
         "spend_label": "@bearnDarkGray",
         "calories_value": "@bearnText",
@@ -85,7 +84,7 @@
                 "text": "@bearnAzureGreen"
             }
         }
-    }
+    },
     "dashboard_progress_streaks": {
         "days_bearned_label": "@bearnTextGray",
         "days_bearned_value": "@bearnGreen",
