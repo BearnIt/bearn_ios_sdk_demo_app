@@ -18,10 +18,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="61" translatesAutoresizingMaskIntoConstraints="NO" id="wHA-FR-ZcF">
-                                <rect key="frame" x="70" y="328.5" width="274" height="239"/>
+                                <rect key="frame" x="64" y="278.5" width="286" height="339"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uc-V6-1Xg">
-                                        <rect key="frame" x="0.0" y="0.0" width="274" height="39"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="286" height="39"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Show Bearn Default"/>
                                         <connections>
@@ -29,7 +29,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdi-4o-K1n">
-                                        <rect key="frame" x="0.0" y="100" width="274" height="39"/>
+                                        <rect key="frame" x="0.0" y="100" width="286" height="39"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Show Bearn Custom"/>
                                         <connections>
@@ -37,11 +37,19 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Db-6I-o17">
-                                        <rect key="frame" x="0.0" y="200" width="274" height="39"/>
+                                        <rect key="frame" x="0.0" y="200" width="286" height="39"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Show Bearn Federated Login"/>
                                         <connections>
                                             <action selector="btnFederatedLoginTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tC6-fH-ewG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N65-Xl-r4c">
+                                        <rect key="frame" x="0.0" y="300" width="286" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="Show Bearn as ViewController"/>
+                                        <connections>
+                                            <action selector="btnAsViewControllerWithFederatedTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VnA-KV-Wyv"/>
                                         </connections>
                                     </button>
                                 </subviews>
