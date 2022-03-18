@@ -513,11 +513,16 @@
     "challenge_list": {
         "title": "#FFFFFF",
         "search_textfield": "#000000",
+        "search_textfield_bg": "#FFFFFF",
         "create_challenge_bg": "@bearnAzure",
         "status_open": "@bearnGreen",
         "status_inprogress": "@bearnTabbarBlue",
         "status_complete": "@bearnYelow",
         "status_draft": "@bearnOrange",
+        "challenge_list_btn_filter": {
+            "text": "@bearnTextGray",
+            "background": "#FFFFFF"
+        },
         "all_challenges_btn": {
             "normal": {
                 "text": "@black:0.4"

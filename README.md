@@ -276,7 +276,5 @@ Another example for customizing alerts with 2 buttons (Yes and NO) will look lik
 
 Where `yesAndNoAlert` is the key name of the screen, `yesButton` is the key for the yes (main) button and `noButton` for No button. `titleLabel` key will represent the color for our alert message label.
 
-Please note: when you do not declare the styles for each individual button state, the values will be assigned only for the normal state by default. 
-
-
+Please note: For buttons, when you do not declare the styles for each individual state, the values will be assigned only for the normal state by default.
 
