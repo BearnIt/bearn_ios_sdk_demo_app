@@ -18,6 +18,7 @@
         "bearnGreen": "#bf9000",
         "bearnLightGold": "#fad961",
         "bearnLightGray": "#ffb5b5",
+        "bearnRed": "#fe3d3c",
         "bearnOrange": "#fd6434",
         "bearnOrangeLight": "#f76b1c",
         "bearnOrangeyRed": "#ff3d3d",
@@ -193,7 +194,11 @@
     "challenge_alert_publish_headsup": {
         "title": "#000000",
         "message": "@bearnTextGray",
-        "button": {
+        "yes": {
+            "text": "#FFFFFF",
+            "background": "@bearnAzure"
+        },
+        "no": {
             "text": "#FFFFFF",
             "background": "@bearnGreen"
         }

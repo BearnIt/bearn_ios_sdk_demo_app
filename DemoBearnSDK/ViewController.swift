@@ -18,28 +18,29 @@ class ViewController: UIViewController {
     
     @IBAction func btnDefaultTouch(_ sender: Any) {
         Bearn.shared.loadDefaultTheme()
-        Bearn.shared.present()
+        Bearn.shared.present(on: self, isExitHidden: true)
     }
 
     @IBAction func btnCustomTouch(_ sender: Any) {
-        Bearn.shared.loadCustomInfoFrom(bundle: .main, localizationStringsFile: "BearnStrings", localizationColorsFile: "BearnColors.json")
+        Bearn.shared.loadCustomInfoFrom(bundle: .main, localizationStringsFile: "BearnStrings", colorsFile: "BearnColors.json")
         Bearn.shared.present()
     }
     
     @IBAction func btnFederatedLoginTouch(_ sender: Any) {
         Bearn.shared.loadDefaultTheme()
         Bearn.shared.present(on: self,
+                             isExitHidden: false,
                              parterId: "22ffa303-6c84-11ea-adfe-0e4cb9ff8a2a",
-                             firstName: "Firstname",
-                             lastName: "Lastname",
-                             email: "test@testmail.com",
-                             externalId: "12121212121212121211",
+                             firstName: "John4",
+                             lastName: "Doe4",
+                             email: "john.doe4@testmail.com",
+                             externalId: "121212121212121212",
                              token: "11ffa303-6c84-11ea-adfe-0e4cb9ff1234")
     }
     
     @IBAction func btnAsViewControllerWithFederatedTouch(_ sender: Any) {
         
-        Bearn.shared.loadCustomInfoFrom(bundle: .main, localizationStringsFile: "BearnStrings", localizationColorsFile: "BearnColors.json")
+        Bearn.shared.loadCustomInfoFrom(bundle: .main, localizationStringsFile: "BearnStrings", colorsFile: "BearnColors.json")
         
         // Create instance of Bearn View Controller with federated login
         let bearnVC = Bearn.shared.bearnViewController(isExitHidden: false, // Set isExitHidden to "true" if you do not need the Exit button
@@ -60,4 +61,3 @@ class ViewController: UIViewController {
         self.present(bearnVC, animated: true, completion: nil)
     }
 }
-

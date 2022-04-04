@@ -1,25 +1,393 @@
+// Date formatting
+"year" = "year";
+"years" = "years";
+"month" = "month";
+"months" = "months";
+"day" = "day";
+"days" = "days";
+"hour" = "hour";
+"hours" = "hours";
+"min" = "min";
+"mins" = "mins";
 
 //DASHBOARD
-"DASHBOARD_TITLE"                               = "Dashboard";
-"DASHBOARD_EARNED_TODAY_LABEL"                  = "EARNED TODAY";
-"DASHBOARD_UPDATE_GOAL_BUTTON"                  = "UPDATE GOAL";
-"DASHBOARD_GOAL_ACHIEVED_BUTTON"                = "GOAL ACHIEVED";
-"DASHBOARD_DAILY_GOAL_LABEL"                    = "DAILY GOAL";
+"dashboard_title"                               = "Dashboard";
+"dashboard_earned_today_label"                  = "EARNED TODAY";
+"dashboard_update_goal_button"                  = "UPDATE GOAL";
+"dashboard_goal_achieved_button"                = "GOAL ACHIEVED";
+"dashboard_daily_goal_label"                    = "DAILY GOAL";
 
-"DASHBOARD_CALORIES_LABEL"                      = "CALORIES";
-"DASHBOARD_SPEND_ME_LABEL"                      = "SPEND ME";
-"DASHBOARD_LAST_WEEK_LABEL"                     = "LAST WEEK";
-"DASHBOARD_THIS_WEEK_LABEL"                     = "THIS WEEK";
+"dashboard_calories_label"                      = "CALORIES";
+"dashboard_spend_me_label"                      = "SPEND ME";
+"dashboard_last_week_label"                     = "LAST WEEK";
+"dashboard_this_week_label"                     = "THIS WEEK";
 
-"DASHBOARD_SPEND_ME"                            = "SPEND ME";
-"DASHBOARD_EARN_ME"                             = "EARN ME";
+"dashboard_spend_me"                            = "SPEND ME";
+"dashboard_earn_me"                             = "EARN ME";
 
-"DASHBOARD_ACTIVITIES_INFO_TITLE"                  = "Diversify your Goals";
-"DASHBOARD_ACTIVITIES_INFO_MESSAGE"                = "All earnings from completed goals are recorded here on this dashboard view to show your accumulative earnings over time.\n\nTry complete as many activity goals as you can to earn additional bonus earnings!";
+"dashboard_activities_info_title"                  = "Diversify your Goals";
+"dashboard_activities_info_message"                = "All earnings from completed goals are recorded here on this dashboard view to show your accumulative earnings over time.\n\nTry complete as many activity goals as you can to earn additional bonus earnings!";
 
 
-"DASHBOARD_STREAKS_DAYS_EARNED"                 = "DAYS EARNED";
-"DASHBOARD_STREAKS_DAYS_BEARNED"                = "DAYS BEARNED";
+"dashboard_streaks_days_earned"                 = "DAYS EARNED";
+"dashboard_streaks_days_bearned"                = "DAYS BEARNED";
 
-"DASHBOARD_STREAKS_INFO_TITLE"                  = "Fitness is a Journey";
-"DASHBOARD_STREAKS_INFO_MESSAGE"                = "Every activity that you track and complete where you burn 100 calories or more represents a tick mark on your progress wheel. If you are consistent and complete one activity every two days, you will earn a day off without penalty. If you skip days your streak will move in reverse.\n\nThis will help you make activity a habit over time.";
+"dashboard_streaks_info_title"                  = "Fitness is a Journey";
+"dashboard_streaks_info_message"                = "Every activity that you track and complete where you burn 100 calories or more represents a tick mark on your progress wheel. If you are consistent and complete one activity every two days, you will earn a day off without penalty. If you skip days your streak will move in reverse.\n\nThis will help you make activity a habit over time.";
+
+// App Menu
+"menu_title" = "Menu";
+"menu_dashboard" = "Dashboard";
+"menu_explored" = "Explore";
+"menu_spend" = "Spend";
+"menu_devices_and_apps" = "Devices & Apps";
+"menu_invite_friends" = "Invite friends";
+"menu_goals" = "Goals";
+"menu_health_scans" = "Health Scans";
+"menu_health_credit_card" = "Health Credit Card";
+"menu_payment_history" = "Payment History";
+"menu_challenge_contest" = "Challenge Contest";
+"menu_my_account" = "My Account";
+"menu_wallet" = "Wallet";
+"menu_settings" = "Settings";
+"menu_health_survey" = "Health Survey";
+"menu_support" = "Support";
+"menu_faq" = "FAQs";
+"menu_streaks" = "Streaks";
+"menu_challenges" = "Challenges";
+"menu_nutrition" = "Nutrition";
+
+// FAQs
+"faq_title" = "Frequently Asked Questions";
+
+// Connected Devices
+"connected_devices_title" = "Connected Devices";
+"connected_devices_footer_message" = "Bearn needs to connect to at least one app to have access to your data. This is the only way we can convert your data so you can earn money while burning calories!";
+"connected_devices_detach" = "DETACH";
+"connected_devices_connect" = "CONNECT";
+"connected_devices_soon" = "Soon";
+
+"connected_devices_apple" = "Apple Health";
+"connected_devices_fitbit" = "Fitbit";
+"connected_devices_google_fit" = "Google Fit";
+"connected_devices_garmin" = "Garmin";
+"connected_devices_myfitnesspal" = "MyFitnessPal";
+"connected_devices_mapmyroute" = "Map My Route";
+"connected_devices_connected" = "CONNECTED";
+
+// My Data Title
+"my_data_title" = "My Data";
+
+// Connect Payment Methods
+"connect_payment_title" = "Connect";
+"connect_payment_title_header" = "Connect your account at one of the following platforms";
+"connect_payment_my_bank_account" = "My Bank Account";
+"connect_payment_paypal" = "PayPal";
+"connect_payment_venmo" = "Venmo";
+"connect_payment_setup_payout_method" = "Set up payout method";
+"connect_payment_setup_comming_soon" = "Coming soon ...";
+"connect_payment_setup_manage_account" = "Manage account";
+
+// Settings
+"settings_title" = "Settings";
+"settings_payment" = "Payment Settings";
+"settings_change_password" = "Change Password";
+"settings_policy" = "Privacy Policy & Terms";
+"settings_logout" = "Log Out";
+
+// GOAL DASHBOARD
+
+"goal_title" = "Goals";
+
+"goal_swimming" = "Swimming";
+"goal_golf" = "Golf";
+"goal_cycling" = "Cycling";
+"goal_running" = "Running";
+"goal_strenght" = "Strenght";
+"goal_tenis" = "Tenis";
+"goal_walking" = "Walking";
+"goal_eliptical" = "Eliptical";
+
+"goal_swimming_cal" = "cal";
+"goal_golf_cal" = "cal";
+"goal_cycling_cal" = "cal";
+"goal_running_cal" = "cal";
+"goal_strenght_cal" = "cal";
+"goal_tennis_cal" = "cal";
+"goal_walking_cal" = "cal";
+"goal_elliptical_cal" = "cal";
+
+"goal_spend_btn_2nd_line" = "SPEND ME";
+"goal_earn_btn_2nd_line" = "EARN ME";
+
+// Dashboard Goals Alert
+"dashboard_goals_alert_info_title" = "You gotta burn to earn!";
+"dashboard_goals_alert_info_message" = "At one penny earned per calorie burned, in order to earn $5.00 you have to burn 500 calories. Let’s go!";
+"dashboard_goals_alert_info_btn" = "OK";
+
+// Dashboard Tool-tips
+"dashboard_progress_message" = "Track your progress on the dial to see where you're at with your daily exercise goal.\nFor every calorie burned, you will earn one penny.";
+"dashboard_progress_btn_title" = "Got it";
+
+"dashboard_update_daily_goal_message" = "If you ever need to update your daily exercise goal, click here.";
+"dashboard_update_daily_goal_btn" = "Got it";
+
+"dashboard_scan_body_message" = "Click on this button to scan your body.";
+"dashboard_scan_body_btn" = "Got it";
+
+"dashboard_achievement_goal_message" = "You did it! Active calorie burn goal achieved! If you want to recalibrate your daily goal, click here.";
+"dashboard_achievement_goal_btn" = "Got it";
+
+// HEALTH SURVEY
+"health_survey_title" = "Health Survey";
+"header_info_title" = "Please fill out the information below so you can get your Health Score.";
+"header_etnicity_info_title" = "Please fill out the information below for face and body scan requirements.";
+"health_survey_btn_continue" = "CONTINUE";
+
+// Invite To Challenge Alert
+"invite_to_challenge_alert_title" = "Let’s go!";
+"invite_to_challenge_alert_message" = "You’ve succesfully sent out an invite to the challenge. Let’s hope your friends are ready to compete!";
+"invite_to_challenge_alert_btn_title" = "INVITE SENT!";
+
+// Invite to Challenge screen.
+"invite_to_challenge_title" = "Invite to Challenge";
+"invite_to_challenge_search_placeholder" = "Search by name";
+"invite_to_challenge_skip" = "Skip";
+"invite_to_challenge_invite" = "INVITE";
+"invite_to_challenge_invitations_left_singular" = "INVITATION LEFT";
+"invite_to_challenge_invitations_left_plural" = "INVITATIONS LEFT";
+
+// Challenge List
+"challenge_list_title" = "Challenges";
+"challenge_list_search_placeholder" = "Search a challenge";
+"challenge_list_btn_filter" = "Filter";
+"challenge_list_all_challenges" = "ALL CHALLENGES";
+"challenge_list_my_challenges" = "MY CHALLENGES";
+"challenge_list_create_challenge" = "Create Challenge";
+"challenge_status_open" = "starts soon";
+"challenge_status_inprogress" = "active";
+"challenge_status_complete" = "complete";
+"challenge_status_draft" = "draft";
+
+// Goal Setting
+"goal_setting_title" = "Goal Setting";
+"goal_setting_subtitle" = "What is your daily earnings goal?";
+"goal_setting_set_btn" = "SET GOAL";
+
+// Health Credit Score
+"health_credit_score_title" = "Health Credit Score";
+"health_credit_score_your" = "YOUR";
+"health_credit_score_score" = "SCORE";
+"health_credit_score_how_to" = "  How is my score calculated";
+"health_credit_score_update_survey" = "UPDATE SURVEY";
+"health_credit_score_goto_dashboard" = "GO TO DASHBOARD";
+"health_credit_score_next" = "NEXT";
+
+// Challenge Heads Up Publish Alert
+"challenge_alert_publish_headsup_title" = "Heads Up!";
+"challenge_alert_publish_headsup_message" = "Wait, you haven't published your challenge. Do you want to delete it?";
+"challenge_alert_publish_headsup_btn_title" = "DELETE CHALLENGE";
+
+// Create Challenge
+"create_challenge_title" = "Create New Challenge";
+"create_challenge_name" = "Challenge Name";
+"create_challenge_competition_type" = "Competition Type";
+"create_challenge_activity_type" = "Activity Type";
+"create_challenge_description" = "Description";
+"create_challenge_start_date" = "Start Date";
+"create_challenge_end_date" = "End Date";
+"create_challenge_challenge_buy_in" = "Challenge Buy-In";
+"create_challenge_marketplace_balance" = "Marketplace Balance";
+"create_challenge_marketplace_balance_inside_cell" = "MARKETPLACE BALANCE";
+
+"create_challenge_marketplace_balance_select_amount" = "CHOOSE AN AMOUNT";
+"create_challenge_marketplace_balance_available" = "FUNDS AVAILABLE";
+"create_challenge_marketplace_balance_insufficient" = "INSUFFICIENT BALANCE";
+"create_challenge_marketplace_add_founds" = "ADD FUNDS";
+
+"create_challenge_btn_create" = "CREATE CHALLENGE";
+
+// Activities
+"activity_swimming" = "swimming";
+"activity_golf" = "golf";
+"activity_cycling" = "cycling";
+"activity_running" = "running";
+"activity_strength" = "strength";
+"activity_tennis" = "tennis";
+"activity_walking" = "walking";
+"activity_elliptical" = "elliptical";
+
+// Challenge Types
+"challenge_type_individual" = "Individual Challenge";
+"challenge_type_group" = "Group Challenge";
+
+"challenge_type_individual_description" = "Individual (2 people)";
+"challenge_type_group_description_part_1" = "Group (2-";
+"challenge_type_group_description_part_2" = "people)";
+
+// Leaderboard
+"leaderboard_title" = "Leaderboard";
+"leaderboard_expired" = "EXPIRED";
+"leaderboard_expires" = "EXPIRES";
+"leaderboard_expires_in" = "IN";
+"leaderboard_rank" = "RANK";
+"leaderboard_1st" = "1st";
+
+// Challenges List Filter
+"challenges_filter_type" = "Type";
+"challenges_filter_challenge" = "Challenge";
+"challenges_filter_all" = "All";
+
+// Challenge Details Screen
+"challenge_detail_title" = "Challenge Details";
+"challenge_detail_expired" = "EXPIRED";
+"challenge_detail_expires" = "EXPIRES";
+"challenge_detail_in" = "IN";
+"challenge_detail_active_users" = "ACTIVE USERS";
+"challenge_detail_creator" = "Challenge Creator";
+"challenge_detail_challenge_name_title" = "Challenge";
+"challenge_detail_challenge_type_title" = "Competition Type";
+"challenge_detail_activity_type_title" = "Activity Type";
+"challenge_detail_description_title" = "Description";
+"challenge_detail_starts_title" = "Challenge Starts";
+"challenge_detail_pool_title" = "Challenge Pool";
+"challenge_detail_buy_in_title" = "Challenge Buy-In";
+"challenge_detail_marketplace_balance_title" = "Marketplace Balance";
+"challenge_detail_marketplace_balance_inside_title" = "Marketplace Balance";
+"challenge_detail_marketplace_btn_balance_available" = "BALANCE AVAILABLE";
+"challenge_detail_marketplace_btn_balance_insufficient" = "INSUFFICIENT BALANCE";
+"challenge_detail_how_to" = "How to play";
+"challenge_detail_rules" = "Rules";
+"challenge_detail_terms_title" = "Terms & Conditions";
+"challenge_detail_invite_to_challenge" = "INVITE TO CHALLENGE";
+"challenge_detail_view_leaderboard" = "VIEW LEADERBOARD";
+"challenge_detail_join_challenge" = "JOIN CHALLENGE";
+
+// Challenge Details - Start Activity
+"challenge_detail_alert_start_activity_title" = "Start Activity";
+"challenge_detail_alert_start_activity_message" = "You've successfully joined the challenge.
+ When the challenge begins, please go to your wearable device and start the appropriate activity.
+You must begin the activity each time on your wearable device for your activity data to count towards the challenge.";
+"challenge_detail_alert_start_activity_btn" = "CHALLENGE JOINED!";
+
+// Goals - Start Activity Alert
+"challenge_goals_alert_start_activity_title" = "Start Activity";
+"challenge_goals_alert_start_activity_message" = "Please go to your wearable device and start the appropriate activity so that we can start rewarding you for it.
+
+If you do not start the activity on your wearable device each time you are active in the goal, we will not be able to pull in the activity data and no data will show.";
+"challenge_goals_alert_start_activity_btn" = "GOT IT";
+
+// Challenge Balance Alert
+"challenge_detail_alert_balance_title" = "Marketplace Balance";
+"challenge_detail_alert_balance_message" = " This balance is used to purchase products and services in the Bearn Marketplace or to fund user created challenges.";
+"challenge_detail_alert_balance_btn" = "OK";
+
+// Challenge Details Pool Alert
+"challenge_detail_alert_pool_title" = "Challenge Pool";
+"challenge_detail_alert_pool_message" = "The dollar value of the challenge pool will increase as participants join the challenge.
+Participants can join a challenge at anytime as long as the challenge has not expired.
+See FAQs for the formula used to calculate payout when there is more than 1 winner.";
+"challenge_detail_alert_pool_btn" = "OK";
+
+// Challenge Succesful Report Alert
+"challenge_detail_alert_report_title" = "Thank you!";
+"challenge_detail_alert_report_message" = "Thank you for making the Bearn app safer for the entire community!";
+"challenge_detail_alert_report_btn" = "OK";
+
+// Challenge Report Alert
+"challenge_detail_alert_report_title1" = "Report Challenge";
+"challenge_detail_alert_report_title2" = "Please Note";
+"challenge_detail_alert_report_note" = "Reporting is anonymous. Your name will not be revealed to the person you are reporting.\nThis will be investigated and may or may not result in the removal of the challenge.\nYou will not be notified of the outcome.";
+
+"challenge_detail_alert_report_option_1" = "Inappropriate Language";
+"challenge_detail_alert_report_option_2" = "Sensitive Topic";
+"challenge_detail_alert_report_option_3" = "Needs More Details";
+"challenge_detail_alert_report_option_4" = "Other Issue";
+
+"challenge_detail_alert_report_button" = "Report";
+
+// Account Update Sheet
+"account_update_success_title" = "Success!";
+"account_update_success_message" = "Your account has been updated successfully";
+"account_update_success_btn" = "OK";
+
+// My Account - Edit Phone Number Alert
+"my_account_phone_edit_alert_message" = "Are you sure you want to update your phone number?";
+"my_account_phone_edit_alert_yes" = "Yes";
+"my_account_phone_edit_alert_no" = "No";
+
+// My Account - Edit Phone Number Failure Alert
+"my_account_phone_edit_fail_title" = "Heads up!";
+"my_account_phone_edit_fail_message" = "Sorry, the code you entered is not valid. Please make sure you entered it correctly.";
+"my_account_phone_edit_fail_button" = "GOT IT!";
+
+// My Account - Edit Phone Number Success Alert
+"my_account_phone_edit_success_title" = "Great!";
+"my_account_phone_edit_success_message" = "Phone number has been updated successfully!";
+"my_account_phone_edit_success_button" = "OK";
+
+// My Account - Password reset alert
+"my_account_psw_reset_alert_message" = "Are you sure you want to reset your password?
+When you receive the email, follow the steps to complete resetting your password.";
+"my_account_psw_reset_alert_yes" = "YES, LOGOUT";
+"my_account_psw_reset_alert_no" = "NO";
+
+// Support Ticket sent alert.
+"feedback_ticket_sent_title" = "We appreciate it";
+"feedback_ticket_sent_message" = "Thank you for sharing and we will respond shortly.";
+"feedback_ticket_sent_button" = "OK";
+
+// Health Credit Score - How Is Calculated
+"health_credit_score_info_title" = "Health Credit Score Factors";
+"health_credit_score_info_message" = "Your health credit score is currently calculated based on your answers to the health survey questions";
+"health_credit_score_info_btn" = "OK";
+
+// Logout Alert
+"logout_alert_message" = "Are you sure you\nwant to logout?";
+"logout_alert_yes" = "LOGOUT";
+"logout_alert_no" = "NO";
+
+// Phone Number Verification
+"phone_verification_title" = "Phone Number Verification";
+"phone_verification_message" = "We need to make sure you are human!";
+"phone_verification_details" = "Please provide your phone number and we will send a verification code.";
+"phone_verification_send_btn" = "SEND CODE";
+
+// Privacy Policy & Terms
+"privacy_policy_terms_title" = "Privacy Policy & Terms";
+
+// Activity That Counts Alert
+"activity_that_counts_alert_title" = "Activity That Counts";
+"activity_that_counts_alert_message" = "Any activity over 100cal burn that your wearable tracks counts as an activity.";
+"activity_that_counts_alert_btn" = "OK";
+
+// Feedback Screen
+"feedback_title" = "Support";
+"feedback_type_placeholder" = "Type";
+"feedback_message_placeholder" = "Message";
+"feedback_send_btn" = "Send";
+"feedback_bug" = "bug";
+"feedback_enhancement" = "enhancement";
+"feedback_general" = "general";
+
+// My Account
+"my_account_title" = "My Account";
+"my_account_firstname" = "First name";
+"my_account_lastname" = "Last name";
+"my_account_phone" = "Phone";
+"my_account_email" = "Email address";
+"my_account_address1" = "Address 1";
+"my_account_address2" = "Address 2";
+"my_account_city" = "City";
+"my_account_state" = "State";
+"my_account_zip" = "ZIP code";
+"my_account_btn_save" = "SAVE CHANGES";
+
+// Code Verification
+"code_verification_title" = "Code Verification";
+"code_verification_subtitle" = "Enter the verification code that you received";
+"code_verification_didnt_receive_label" = "Didn’t receive the code?";
+"code_verification_resend_btn" = "RESEND";
+"code_verification_confirm_btn" = "CONFIRM CODE";
+"code_verification_in" = "in";
+"code_verification_seconds" = "seconds";
