@@ -84,7 +84,8 @@
             "selected": {
                 "text": "@bearnAzureGreen"
             }
-        }
+        },
+        "chart_no_data_label": "#000000"
     },
     "dashboard_progress_streaks": {
         "days_bearned_label": "@bearnTextGray",
@@ -106,19 +107,21 @@
         "goal_total_amount_btn": {
             "background": "@bearnGreen"
         },
+        "goal_achieve_footer_title": "@bearnGreen",
+        "goal_achieve_footer_subtitle": "#000000",
         "goal_swimming": "#000000",
         "goal_golf": "#000000",
         "goal_cycling": "#000000",
         "goal_running": "#000000",
-        "goal_strenght": "#000000",
-        "goal_tenis": "#000000",
+        "goal_strength": "#000000",
+        "goal_tennis": "#000000",
         "goal_walking": "#000000",
         "goal_eliptical": "#000000",
         "goal_swimming_cal": "@bearnTextGray",
         "goal_golf_cal": "@bearnTextGray",
         "goal_cycling_cal": "@bearnTextGray",
         "goal_running_cal": "@bearnTextGray",
-        "goal_strenght_cal": "@bearnTextGray",
+        "goal_strength_cal": "@bearnTextGray",
         "goal_tennis_cal": "@bearnTextGray",
         "goal_walking_cal": "@bearnTextGray",
         "goal_elliptical_cal": "@bearnTextGray"
@@ -199,6 +202,14 @@
             "background": "@bearnAzure"
         },
         "no": {
+            "text": "#FFFFFF",
+            "background": "@bearnGreen"
+        }
+    },
+    "challenge_alert_is_full": {
+        "title": "#000000",
+        "message": "@bearnTextGray",
+        "ok": {
             "text": "#FFFFFF",
             "background": "@bearnGreen"
         }

@@ -103,8 +103,8 @@
 "goal_golf" = "Golf";
 "goal_cycling" = "Cycling";
 "goal_running" = "Running";
-"goal_strenght" = "Strenght";
-"goal_tenis" = "Tenis";
+"goal_strength" = "Strength";
+"goal_tennis" = "Tennis";
 "goal_walking" = "Walking";
 "goal_eliptical" = "Eliptical";
 
@@ -112,13 +112,19 @@
 "goal_golf_cal" = "cal";
 "goal_cycling_cal" = "cal";
 "goal_running_cal" = "cal";
-"goal_strenght_cal" = "cal";
+"goal_strength_cal" = "cal";
 "goal_tennis_cal" = "cal";
 "goal_walking_cal" = "cal";
 "goal_elliptical_cal" = "cal";
 
 "goal_spend_btn_2nd_line" = "SPEND ME";
 "goal_earn_btn_2nd_line" = "EARN ME";
+
+"goal_achieve_footer_title" = "Achieve your Goals";
+"goal_achieve_footer_subtitle" = "Complete the activities and earn the stated bonus by achieving the goal.
+
+Goals that you begin will show in green and you can view your progression on the progress line.
+";
 
 // Dashboard Goals Alert
 "dashboard_goals_alert_info_title" = "You gotta burn to earn!";
@@ -128,6 +134,7 @@
 // Dashboard Tool-tips
 "dashboard_progress_message" = "Track your progress on the dial to see where you're at with your daily exercise goal.\nFor every calorie burned, you will earn one penny.";
 "dashboard_progress_btn_title" = "Got it";
+"dashboard_progress_chart_no_data" = "No chart data available.";
 
 "dashboard_update_daily_goal_message" = "If you ever need to update your daily exercise goal, click here.";
 "dashboard_update_daily_goal_btn" = "Got it";
@@ -140,8 +147,11 @@
 
 // HEALTH SURVEY
 "health_survey_title" = "Health Survey";
+"health_survey_title_face_scan" = "New Face Scan";
+"health_survey_title_body_scan" = "New Body Scan";
 "header_info_title" = "Please fill out the information below so you can get your Health Score.";
-"header_etnicity_info_title" = "Please fill out the information below for face and body scan requirements.";
+"header_info_title_face_scan" = "Please fill out the information below so you can begin your Face Scan.";
+"header_info_title_body_scan" = "Please fill out the information below so you can begin your Body Scan.";
 "health_survey_btn_continue" = "CONTINUE";
 
 // Invite To Challenge Alert
@@ -185,8 +195,9 @@
 
 // Challenge Heads Up Publish Alert
 "challenge_alert_publish_headsup_title" = "Heads Up!";
-"challenge_alert_publish_headsup_message" = "Wait, you haven't published your challenge. Do you want to delete it?";
-"challenge_alert_publish_headsup_btn_title" = "DELETE CHALLENGE";
+"challenge_alert_publish_headsup_message" = "Are you sure you want to exit?";
+"challenge_alert_publish_headsup_btn_yes" = "YES";
+"challenge_alert_publish_headsup_btn_no" = "NO";
 
 // Create Challenge
 "create_challenge_title" = "Create New Challenge";
@@ -274,7 +285,9 @@ You must begin the activity each time on your wearable device for your activity 
 "challenge_goals_alert_start_activity_title" = "Start Activity";
 "challenge_goals_alert_start_activity_message" = "Please go to your wearable device and start the appropriate activity so that we can start rewarding you for it.
 
-If you do not start the activity on your wearable device each time you are active in the goal, we will not be able to pull in the activity data and no data will show.";
+If you do not start the activity on your wearable device each time you are active in the goal, we will not be able to pull in the activity data and no data will show.
+
+Note: Third party apps MUST sync with Apple Health or Google Fit for us to pull in the activity data.";
 "challenge_goals_alert_start_activity_btn" = "GOT IT";
 
 // Challenge Balance Alert
@@ -305,6 +318,10 @@ See FAQs for the formula used to calculate payout when there is more than 1 winn
 "challenge_detail_alert_report_option_4" = "Other Issue";
 
 "challenge_detail_alert_report_button" = "Report";
+
+// Challenge is Full Alert
+"challenge_detail_alert_is_full_title" = "Challenge is full!";
+"challenge_detail_alert_is_full_message" = "This challenge filled up quickly! But don’t worry, check the challenges screen to see if you can join another challenge or, you can create your own!";
 
 // Account Update Sheet
 "account_update_success_title" = "Success!";
@@ -358,7 +375,9 @@ When you receive the email, follow the steps to complete resetting your password
 
 // Activity That Counts Alert
 "activity_that_counts_alert_title" = "Activity That Counts";
-"activity_that_counts_alert_message" = "Any activity over 100cal burn that your wearable tracks counts as an activity.";
+"activity_that_counts_alert_message" = "Any activity over 100cal burn that your wearable tracks counts as an activity.
+
+Note: Third party apps MUST sync with Apple Health or Google Fit for us to pull in the activity data.";
 "activity_that_counts_alert_btn" = "OK";
 
 // Feedback Screen
