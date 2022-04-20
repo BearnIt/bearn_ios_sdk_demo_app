@@ -283,9 +283,9 @@ You must begin the activity each time on your wearable device for your activity 
 
 // Goals - Start Activity Alert
 "challenge_goals_alert_start_activity_title" = "Start Activity";
-"challenge_goals_alert_start_activity_message" = "Please go to your wearable device and start the appropriate activity so that we can start rewarding you for it.
+"challenge_goals_alert_start_activity_message" = "Please go to your wearable device or third party app and start the appropriate activity so that we can start rewarding you for it.
 
-If you do not start the activity on your wearable device each time you are active in the goal, we will not be able to pull in the activity data and no data will show.
+If you do not start the activity on your wearable device or third party app each time you are active in the goal, we will not be able to pull in the activity data and no data will show.
 
 Note: Third party apps MUST sync with Apple Health or Google Fit for us to pull in the activity data.";
 "challenge_goals_alert_start_activity_btn" = "GOT IT";
@@ -375,7 +375,7 @@ When you receive the email, follow the steps to complete resetting your password
 
 // Activity That Counts Alert
 "activity_that_counts_alert_title" = "Activity That Counts";
-"activity_that_counts_alert_message" = "Any activity over 100cal burn that your wearable tracks counts as an activity.
+"activity_that_counts_alert_message" = "Any activity over 100cal burn that your wearable or third party app tracks counts as an activity.
 
 Note: Third party apps MUST sync with Apple Health or Google Fit for us to pull in the activity data.";
 "activity_that_counts_alert_btn" = "OK";
