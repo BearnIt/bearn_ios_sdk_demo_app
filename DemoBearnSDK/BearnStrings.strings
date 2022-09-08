@@ -10,6 +10,17 @@
 "min" = "min";
 "mins" = "mins";
 
+//SIGN-UP
+"signup_user_exists_alert_info_title"           = "Heads up!";
+"signup_user_exists_alert_info_message"         = "You already have an account on Bearn.\nPlease sign in.";
+"signup_user_exists_alert_info_btn"             = "GOT IT!";
+
+// GETTING STARTED
+"getting_started_title" = "Sign Up";
+"getting_started_message_title" = "Getting Started";
+"getting_started_message_description" = "Easily sync your activity data from supported third party apps to your health app (and connect your health app to Bearn) or connect your supported device directly to Bearn, so that we can pull in your activity and start rewarding you for it!";
+"getting_started_connect" = "CONNECT";
+
 //DASHBOARD
 "dashboard_title"                               = "Dashboard";
 "dashboard_earned_today_label"                  = "EARNED TODAY";
@@ -62,7 +73,7 @@
 
 // Connected Devices
 "connected_devices_title" = "Connected Devices";
-"connected_devices_footer_message" = "Bearn needs to connect to at least one app to have access to your data. This is the only way we can convert your data so you can earn money while burning calories!";
+"connected_devices_footer_message" = "Only one device or application can be connected to Bearn at one time.";
 "connected_devices_detach" = "DETACH";
 "connected_devices_connect" = "CONNECT";
 "connected_devices_soon" = "Soon";
@@ -74,9 +85,6 @@
 "connected_devices_myfitnesspal" = "MyFitnessPal";
 "connected_devices_mapmyroute" = "Map My Route";
 "connected_devices_connected" = "CONNECTED";
-
-// My Data Title
-"my_data_title" = "My Data";
 
 // Connect Payment Methods
 "connect_payment_title" = "Connect";
@@ -93,10 +101,17 @@
 "settings_payment" = "Payment Settings";
 "settings_change_password" = "Change Password";
 "settings_policy" = "Privacy Policy & Terms";
+"settings_my_data_title" = "My Data";
+"settings_delete_account_title" = "Delete My Account";
 "settings_logout" = "Log Out";
 
-// GOAL DASHBOARD
+// Delete Account Alert
+"delete_account_title" = "Delete Account";
+"delete_account_subtitle" = "Delete your account and all data? This action cannot be undone and the email associated with this account cannot be used again. Are you sure?";
+"delete_account_no" = "NO, CANCEL";
+"delete_account_yes" = "YES, DELETE MY ACCOUNT";
 
+// GOAL DASHBOARD
 "goal_title" = "Goals";
 
 "goal_swimming" = "Swimming";
@@ -276,9 +291,8 @@ Goals that you begin will show in green and you can view your progression on the
 
 // Challenge Details - Start Activity
 "challenge_detail_alert_start_activity_title" = "Start Activity";
-"challenge_detail_alert_start_activity_message" = "You've successfully joined the challenge.
- When the challenge begins, please go to your wearable device and start the appropriate activity.
-You must begin the activity each time on your wearable device for your activity data to count towards the challenge.";
+"challenge_detail_alert_start_activity_message" = "You’ve successfully joined the challenge!\n\n
+When the challenge begins, remember to start the activity on your supported wearable device or third party supported app. Third party apps must be synced with your Health app that is connected to Bearn in order for us to pull in your data.";
 "challenge_detail_alert_start_activity_btn" = "CHALLENGE JOINED!";
 
 // Goals - Start Activity Alert
@@ -287,7 +301,7 @@ You must begin the activity each time on your wearable device for your activity 
 
 If you do not start the activity on your wearable device or third party app each time you are active in the goal, we will not be able to pull in the activity data and no data will show.
 
-Note: Third party apps MUST sync with Apple Health or Google Fit for us to pull in the activity data.";
+Note: Third party apps MUST sync with Apple Health or Fitbit for us to pull in the activity data.";
 "challenge_goals_alert_start_activity_btn" = "GOT IT";
 
 // Challenge Balance Alert
@@ -327,6 +341,11 @@ See FAQs for the formula used to calculate payout when there is more than 1 winn
 "account_update_success_title" = "Success!";
 "account_update_success_message" = "Your account has been updated successfully";
 "account_update_success_btn" = "OK";
+
+// Account Photo Removal
+"account_del_profile_title" = "Delete Picture?";
+"account_del_profile_btn_cancel" = "NO, CANCEL";
+"account_del_profile_btn_yes" = "YES, DELETE MY PICTURE";
 
 // My Account - Edit Phone Number Alert
 "my_account_phone_edit_alert_message" = "Are you sure you want to update your phone number?";
@@ -377,7 +396,7 @@ When you receive the email, follow the steps to complete resetting your password
 "activity_that_counts_alert_title" = "Activity That Counts";
 "activity_that_counts_alert_message" = "Any activity over 100cal burn that your wearable or third party app tracks counts as an activity.
 
-Note: Third party apps MUST sync with Apple Health or Google Fit for us to pull in the activity data.";
+Note: Third party apps MUST sync with Apple Health or Fitbit for us to pull in the activity data.";
 "activity_that_counts_alert_btn" = "OK";
 
 // Feedback Screen
@@ -410,3 +429,24 @@ Note: Third party apps MUST sync with Apple Health or Google Fit for us to pull 
 "code_verification_confirm_btn" = "CONFIRM CODE";
 "code_verification_in" = "in";
 "code_verification_seconds" = "seconds";
+
+// Scan Complete
+// Face Scan Completion Screen
+"face_scan_complete_title" = "Your Face Scan Health Assessment is Complete.";
+"face_scan_complete_subtitle1" = "Do you want to take a  Body Scan?";
+"face_scan_complete_subtitle2" = "It only takes about 2 minutes, and you unlock key health risks.";
+"face_scan_complete_face_to_body_scan_btn" = "TAKE A BODY SCAN";
+
+// Body Scan Completion Screen
+"body_scan_complete_title" = "Your Body Scan Health Assessment is Complete.";
+"body_scan_complete_subtitle1" = "Do you want to take a quick Face Scan?";
+"body_scan_complete_subtitle2" = "It only takes 60 seconds, and you unlock key health risks!";
+"body_scan_complete_body_to_face_scan_btn" = "TAKE A FACE SCAN";
+
+// Default / Combo Scan Completion Screen
+"combo_scan_complete_title" = "Your Combo Scan Health Assessment is Complete.";
+"combo_scan_complete_subtitle1" = "";
+"combo_scan_complete_subtitle2" = "At any time, you can find all your scan results by clicking on the menu icon in the bottom left corner.";
+"combo_scan_complete_show_all" = "SHOW ALL SCANS";
+
+"scan_complete_well_done" = "Well done, ";
